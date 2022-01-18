@@ -1,0 +1,68 @@
+html,
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/material-icons/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(/assets/material-icons/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(/assets/material-icons/iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(/assets/material-icons/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}
+.form {
+  display: none;
+  border: 1px solid #00d1b2;
+  border-radius: 5px;
+  padding: 10px;
+}
+.section {
+  padding: 5px;
+}
+.drop-down {
+  height: 50px;
+  background-color: #00d1b2;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.notes {
+  margin-top: 40px;
+  text-align: justify;
+  columns: 25em;
+}
+li {}
+.note {
+  margin-bottom: 10px;
+  width: 500px;
+  display: inline-block;
+}
+.deleter {
+  float: left;
+}
+.card-content {
+  white-space: pre-wrap;
+}
